@@ -1,4 +1,4 @@
 package app.domain.models;
 
-public class PetOwner {
+public class PetOwner extends Person{
 }
