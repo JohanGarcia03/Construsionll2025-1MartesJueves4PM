@@ -13,8 +13,7 @@ import java.util.List;
 public class Mainveterinarian {
     //Guarda toda la información en memoria*/
 
-    private List<Veterinarian> veterinarians;
-    private List<Vendor> vendors;
+    private List<User> Users;
     private List<PetOwner> Owners;
     private List<Pet> pets;
     private List<OrderMedicine> OrderMedicines;

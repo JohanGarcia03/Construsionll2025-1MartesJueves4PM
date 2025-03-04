@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Register {
     private Date date;
-    private Veterinarian doctor;
+    private String users;
     private String reason;
     private String symptoms;
     private String diagnostic;
@@ -26,9 +26,9 @@ public class Register {
     private String detailsProcess;
     private boolean orderAnnulled;
 
-    public Register(Date date, Veterinarian doctor, String reason, String symptoms, String diagnostic, String procedure, String dose, String idOrder, List<String> vaccine, List<String> allergies, String detailsProcess, boolean orderAnnulled) {
+    public Register(Date date,String users,String reason, String symptoms, String diagnostic, String procedure, String dose, String idOrder, List<String> vaccine, List<String> allergies, String detailsProcess, boolean orderAnnulled) {
         this.date = date;
-        this.doctor = doctor;
+        this.users = users;
         this.reason = reason;
         this.symptoms = symptoms;
         this.diagnostic = diagnostic;

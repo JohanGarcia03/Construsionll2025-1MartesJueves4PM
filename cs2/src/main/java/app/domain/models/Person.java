@@ -12,13 +12,11 @@ public class Person {
     private long PersonId;
     private String Name;
     private int Age;
-    private String Rol;
 
-    public Person(long personId, String name, int age, String rol) {
+    public Person(long personId, String name, int age) {
         PersonId = personId;
         Name = name;
         Age = age;
-        Rol = rol;
     }
 }
 
